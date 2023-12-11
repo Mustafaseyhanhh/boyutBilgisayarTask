@@ -1,0 +1,58 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!--begin::Careers - Apply-->
+<div class="card">
+	<div class="card-header border-0 pt-5">
+		<h3 class="card-title align-items-start flex-column">
+			<span class="card-label fw-bolder fs-3 mb-1">Marka Ekle</span>
+		</h3>
+	</div>
+	<!--begin::Body-->
+	<div class="card-body p-lg-17">
+		<!--begin::Layout-->
+		<div class="d-flex flex-column flex-lg-row">
+			<!--begin::Content-->
+			<div class="flex-lg-row-fluid me-0">
+				<!--begin::Form-->
+				<form action="/stock/AddBrand" class="form mb-15" method="POST">
+					<!--begin::Input group-->
+					<div class="row mb-5">
+						<!--begin::Col-->
+						<div class="col-md-12 fv-row">
+							<!--begin::Label-->
+							<label class="required fs-5 fw-bold mb-2">Eklenecek Marka ismi</label>
+							<!--end::Label-->
+							<!--begin::Input-->
+							<input type="text" class="form-control form-control-solid" placeholder="" name="Name" />
+							<!--end::Input-->
+						</div>
+						<!--end::Col-->
+
+					</div>
+					<!--end::Input group-->
+					<!--begin::Submit-->
+					<button type="submit" class="btn btn-primary" id="kt_careers_submit_button">
+						<!--begin::Indicator-->
+						<span class="indicator-label">Kaydet</span>
+						<span class="indicator-progress">
+							Please wait...
+							<span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+						</span>
+						<!--end::Indicator-->
+					</button>
+					<!--end::Submit-->
+				</form>
+				<!--end::Form-->
+
+			</div>
+			<!--end::Content-->
+
+		</div>
+		<!--end::Layout-->
+	</div>
+	<!--end::Body-->
+</div>
+<!--end::Careers - Apply-->

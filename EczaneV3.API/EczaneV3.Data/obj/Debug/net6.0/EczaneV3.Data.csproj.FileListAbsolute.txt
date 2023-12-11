@@ -1,0 +1,17 @@
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\bin\Debug\net6.0\EczaneV3.Data.deps.json
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\bin\Debug\net6.0\EczaneV3.Data.runtimeconfig.json
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\bin\Debug\net6.0\EczaneV3.Data.dll
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\bin\Debug\net6.0\EczaneV3.Data.pdb
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\bin\Debug\net6.0\EczaneV3.Entites.dll
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\bin\Debug\net6.0\EczaneV3.Entites.pdb
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\obj\Debug\net6.0\EczaneV3.Data.csproj.AssemblyReference.cache
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\obj\Debug\net6.0\EczaneV3.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\obj\Debug\net6.0\EczaneV3.Data.AssemblyInfoInputs.cache
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\obj\Debug\net6.0\EczaneV3.Data.AssemblyInfo.cs
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\obj\Debug\net6.0\EczaneV3.Data.csproj.CoreCompileInputs.cache
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\obj\Debug\net6.0\EczaneV3.Data.csproj.CopyComplete
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\obj\Debug\net6.0\EczaneV3.Data.dll
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\obj\Debug\net6.0\refint\EczaneV3.Data.dll
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\obj\Debug\net6.0\EczaneV3.Data.pdb
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\obj\Debug\net6.0\EczaneV3.Data.genruntimeconfig.cache
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Data\obj\Debug\net6.0\ref\EczaneV3.Data.dll

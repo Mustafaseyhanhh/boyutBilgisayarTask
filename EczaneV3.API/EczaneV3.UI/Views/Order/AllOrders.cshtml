@@ -1,0 +1,63 @@
+﻿@{
+	ViewData["Title"] = "Category Page";
+}
+
+<div class="card">
+	<div class="card-header border-0 pt-5">
+		<h3 class="card-title align-items-start flex-column">
+			<span class="card-label fw-bolder fs-3 mb-1">Tüm Siparişler</span>
+			<span class="text-muted mt-1 fw-bold fs-7">Over 500 members</span>
+		</h3>
+		
+	</div>
+	<hr />
+	<!--begin::Body-->
+	<div class="card-body">
+		<!--begin::Layout-->
+		<div class="d-flex flex-column flex-lg-row">
+			<!--begin::Content-->
+			<div class="flex-lg-row-fluid">
+				<table id="myTable" class="display" style="width:100%">
+					<thead>
+						<tr>
+							<th>Toplam Tutar</th>
+							<th>Tarih</th>
+							<th>Status</th>
+							<th>Detay</th>
+							<th>Onayla</th>
+
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<th>Toplam Tutar</th>
+							<th>Tarih</th>
+							<th>Status</th>
+							<th>Detay</th>
+							<th>Onayla</th>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+
+	$(document).ready(function () {
+		$.noConflict();
+		$('#myTable').DataTable({
+			ajax: '/order/AllOrdersData',
+			columns: [
+				{ data: 'totalPrice' },
+				{ data: 'createdDate' },
+				{ data: 'status' },
+				{ data: (data) => `<a href="/order/Detail?id=${data.id}" class="btn btn-bg-light btn-color-muted btn-active-color-primary btn-sm px-4">Detay</a>` },
+				{ data: (data) => `<a href="/order/Confirm?id=${data.id}" class="btn btn-bg-light btn-color-muted btn-active-color-primary btn-sm px-4" onclick="return confirm('Siparişi Onaylamak istediğinize Emin misiniz?')">Onayla</a>` },
+
+			]
+
+		});
+	});
+</script>

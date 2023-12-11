@@ -1,0 +1,161 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EczaneV3.UI
+build_property.RootNamespace = EczaneV3.UI
+build_property.ProjectDir = C:\Users\mpskln1812\source\repos\boyutBilgisayarTask\EczaneV3.API\EczaneV3.UI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mpskln1812\source\repos\boyutBilgisayarTask\EczaneV3.API\EczaneV3.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Order/AllOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWxsT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Order/Basket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQmFza2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Order/ConfirmOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ29uZmlybU9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Order/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Order/WaitingOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcV2FpdGluZ09yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Role/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Role/RoleAssign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxSb2xlQXNzaWduLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Stock/AddBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcQWRkQnJhbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Stock/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Stock/AddStock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcQWRkU3RvY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Stock/AddStockAmount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcQWRkU3RvY2tBbW91bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Stock/AddStockCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcQWRkU3RvY2tDYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Stock/AllStockList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcQWxsU3RvY2tMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Stock/ListBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcTGlzdEJyYW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Stock/ListCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcTGlzdENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Stock/ListStockCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcTGlzdFN0b2NrQ2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Stock/ListStockFinish.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tcTGlzdFN0b2NrRmluaXNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/User/EditPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/User/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/User/ListUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMaXN0VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/User/ListWaitUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMaXN0V2FpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/User/PasswordReset.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQYXNzd29yZFJlc2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/User/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/User/UpdatePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGVQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mpskln1812/source/repos/boyutBilgisayarTask/EczaneV3.API/EczaneV3.UI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-akl1e1kvgi

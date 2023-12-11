@@ -1,0 +1,90 @@
+﻿@model IEnumerable<EczaneV3.Entites.Models.Authentication.AppUser>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="card">
+    <div class="card-header border-0 pt-5">
+        <h3 class="card-title align-items-start flex-column">
+            <span class="card-label fw-bolder fs-3 mb-1">Onay Bekleyen Listesi</span>
+        </h3>
+        <div class="card-toolbar" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-trigger="hover" title="" data-bs-original-title="Kulanıcı eklemek için tıklayınız">
+            <a href="/user/signin" class="btn btn-sm btn-light btn-active-primary">
+                <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                <span class="svg-icon svg-icon-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <rect opacity="0.5" x="11.364" y="20.364" width="16" height="2" rx="1" transform="rotate(-90 11.364 20.364)" fill="black"></rect>
+                        <rect x="4.36396" y="11.364" width="16" height="2" rx="1" fill="black"></rect>
+                    </svg>
+                </span>
+                <!--end::Svg Icon-->Kullanıcı Ekle
+            </a>
+        </div>
+    </div>
+    <!--begin::Body-->
+    <div class="card-body p-lg-17">
+        <!--begin::Layout-->
+        <div class="d-flex flex-column flex-lg-row">
+            <!--begin::Content-->
+            <div class="flex-lg-row-fluid me-0">
+                
+                <table class="table" ozel-element="">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.UserName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Email)
+                            </th>
+                            <th>
+                                Status
+                            </th>
+                            <th>Role Değiştir</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.UserName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Email)
+                                </td>
+
+                                @if (item.LockoutEnabled)
+                                {
+                                    <td class="text-start">
+                                        <span class="badge badge-light-danger">Rejected</span>
+                                        <a href="/user/ConfirmWaitUser?id=@item.Id" class="btn btn-bg-light btn-color-muted btn-active-color-primary btn-sm px-4" onclick="return confirm('Üyeyi onaylayacaksınız Emin misiniz?')">Onayla</a>
+
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td class="text-start">
+                                        <span class="badge badge-light-success">Onaylı</span>
+                                        <a href="/user/rejectUser?id=@item.Id" class="btn btn-bg-light btn-color-muted btn-active-color-primary btn-sm px-4" onclick="return confirm('Üyeyinin onayını kaldıracaksınız Emin misiniz?')">Onayı Kaldır</a>
+                                    </td>
+                                }
+
+                                <td>
+                                    <a asp-action="RoleAssign" asp-controller="Role" asp-route-id="@item.Id">Role Assign</a>
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+            <!--end::Content-->
+
+        </div>
+        <!--end::Layout-->
+    </div>
+    <!--end::Body-->
+</div>
+<!--end::Careers - Apply-->

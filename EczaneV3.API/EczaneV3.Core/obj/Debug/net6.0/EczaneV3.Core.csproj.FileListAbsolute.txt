@@ -1,0 +1,12 @@
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Core\bin\Debug\net6.0\EczaneV3.Core.deps.json
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Core\bin\Debug\net6.0\EczaneV3.Core.dll
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Core\bin\Debug\net6.0\EczaneV3.Core.pdb
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Core\obj\Debug\net6.0\EczaneV3.Core.csproj.AssemblyReference.cache
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Core\obj\Debug\net6.0\EczaneV3.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Core\obj\Debug\net6.0\EczaneV3.Core.AssemblyInfoInputs.cache
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Core\obj\Debug\net6.0\EczaneV3.Core.AssemblyInfo.cs
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Core\obj\Debug\net6.0\EczaneV3.Core.csproj.CoreCompileInputs.cache
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Core\obj\Debug\net6.0\EczaneV3.Core.dll
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Core\obj\Debug\net6.0\refint\EczaneV3.Core.dll
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Core\obj\Debug\net6.0\EczaneV3.Core.pdb
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Core\obj\Debug\net6.0\ref\EczaneV3.Core.dll

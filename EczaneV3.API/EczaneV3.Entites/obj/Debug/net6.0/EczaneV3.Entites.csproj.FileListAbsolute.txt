@@ -1,0 +1,12 @@
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Entites\bin\Debug\net6.0\EczaneV3.Entites.deps.json
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Entites\bin\Debug\net6.0\EczaneV3.Entites.dll
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Entites\bin\Debug\net6.0\EczaneV3.Entites.pdb
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Entites\obj\Debug\net6.0\EczaneV3.Entites.csproj.AssemblyReference.cache
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Entites\obj\Debug\net6.0\EczaneV3.Entites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Entites\obj\Debug\net6.0\EczaneV3.Entites.AssemblyInfoInputs.cache
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Entites\obj\Debug\net6.0\EczaneV3.Entites.AssemblyInfo.cs
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Entites\obj\Debug\net6.0\EczaneV3.Entites.csproj.CoreCompileInputs.cache
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Entites\obj\Debug\net6.0\EczaneV3.Entites.dll
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Entites\obj\Debug\net6.0\refint\EczaneV3.Entites.dll
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Entites\obj\Debug\net6.0\EczaneV3.Entites.pdb
+C:\Users\mpskln1812\source\repos\EczaneV3.API\EczaneV3.Entites\obj\Debug\net6.0\ref\EczaneV3.Entites.dll

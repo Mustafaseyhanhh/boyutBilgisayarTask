@@ -1,0 +1,56 @@
+﻿@{
+	ViewData["Title"] = "Category Page";
+}
+
+<div class="card">
+	<div class="card-header border-0 pt-5">
+		<h3 class="card-title align-items-start flex-column">
+			<span class="card-label fw-bolder fs-3 mb-1">Kullanıcılar</span>
+			<span class="text-muted mt-1 fw-bold fs-7">Over 500 members</span>
+		</h3>
+	</div>
+	<hr />
+	<!--begin::Body-->
+	<div class="card-body">
+		<!--begin::Layout-->
+		<div class="d-flex flex-column flex-lg-row">
+			<!--begin::Content-->
+			<div class="flex-lg-row-fluid">
+				<table id="myTable" class="display" style="width:100%">
+					<thead>
+						<tr>
+							<th>Username</th>
+							<th>Email</th>
+							<th>Status</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<th>Username</th>
+							<th>Email</th>
+							<th>Status</th>
+
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+
+	$(document).ready(function () {
+		$.noConflict();
+		$('#myTable').DataTable({
+			ajax: '/user/ListUserData',
+			columns: [
+				{ data: 'userName' },
+				{ data: 'email' },
+				{ data: 'lockoutEnabled' },
+
+			]
+
+		});
+	});
+</script>

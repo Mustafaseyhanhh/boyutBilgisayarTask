@@ -1,0 +1,143 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="card">
+	<!--begin::Body-->
+	<div class="card-body p-lg-20">
+		<!--begin::Layout-->
+		<div class="d-flex flex-column flex-xl-row">
+			<!--begin::Content-->
+			<div class="flex-lg-row-fluid me-xl-18 mb-10 mb-xl-0">
+				<!--begin::Invoice 2 content-->
+				<div class="mt-n1">
+					<!--begin::Top-->
+					<div class="d-flex flex-stack pb-10">
+
+						<!--end::Logo-->
+						<!--begin::Action-->
+                        <button onclick="basketComplated()" class="btn btn-xl btn-success">Siparişi Tamamla</button>
+						<!--end::Action-->
+					</div>
+					<!--end::Top-->
+					<!--begin::Wrapper-->
+					<div class="m-0">
+						<!--begin::Label-->
+						<div class="fw-bolder fs-3 text-gray-800 mb-8">Sipairiş Detayları #34782</div>
+						<!--end::Label-->
+						<!--begin::Row-->
+						<div class="row g-5 mb-11">
+							<!--end::Col-->
+							<div class="col-sm-6">
+								<!--end::Label-->
+								<div class="fw-bold fs-7 text-gray-600 mb-1">Sipariş Tarihi:</div>
+								<!--end::Label-->
+								<!--end::Col-->
+								<div class="fw-bolder fs-6 text-gray-800">@DateTime.Now.ToString("dd-MM-yyyy")</div>
+								<!--end::Col-->
+							</div>
+							<!--end::Col-->
+							<!--end::Col-->
+							<div class="col-sm-6">
+								<!--end::Label-->
+								<div class="fw-bold fs-7 text-gray-600 mb-1">Teslim Tarihi:</div>
+								<!--end::Label-->
+								<!--end::Info-->
+								<div class="fw-bolder fs-6 text-gray-800 d-flex align-items-center flex-wrap">
+									<span class="pe-2">@DateTime.Now.AddDays(7).ToString("dd-MM-yyyy")</span>
+									<span class="fs-7 text-danger d-flex align-items-center">
+									<span class="bullet bullet-dot bg-danger me-2"></span>7 gün sonra</span>
+								</div>
+								<!--end::Info-->
+							</div>
+							<!--end::Col-->
+						</div>
+						<!--end::Row-->
+						<!--begin::Row-->
+						<div class="row g-5 mb-12">
+							<!--end::Col-->
+							<div class="col-sm-6">
+								<!--end::Label-->
+								<div class="fw-bold fs-7 text-gray-600 mb-1">Göderici:</div>
+								<!--end::Label-->
+								<!--end::Text-->
+								<div class="fw-bolder fs-6 text-gray-800">Göderici adresi.</div>
+								<!--end::Text-->
+								<!--end::Description-->
+								<div class="fw-bold fs-7 text-gray-600">Göbderici Sokak
+								<br>Livonia, MI 48150</div>
+								<!--end::Description-->
+							</div>
+							<!--end::Col-->
+							<!--end::Col-->
+							<div class="col-sm-6">
+								<!--end::Label-->
+								<div class="fw-bold fs-7 text-gray-600 mb-1">Alıcı:</div>
+								<!--end::Label-->
+								<!--end::Text-->
+								<div class="fw-bolder fs-6 text-gray-800">Alıcı adresi.</div>
+								<!--end::Text-->
+								<!--end::Description-->
+								<div class="fw-bold fs-7 text-gray-600">Alıcı Sokak.
+								<br>Matthews, NC 28104</div>
+								<!--end::Description-->
+							</div>
+							<!--end::Col-->
+						</div>
+						<!--end::Row-->
+						<!--begin::Content-->
+						<div class="flex-grow-1">
+							<!--begin::Table-->
+							<div class="table-responsive border-bottom mb-9">
+								<table class="table mb-3">
+									<thead>
+										<tr class="border-bottom fs-6 fw-bolder text-muted">
+											<th class="min-w-175px pb-2">İsim</th>
+											<th class="min-w-70px text-end pb-2">Fiyat</th>
+											<th class="min-w-80px text-end pb-2">Adet</th>
+											<th class="min-w-100px text-end pb-2">Toplam</th>
+										</tr>
+									</thead>
+									<tbody id ="eklenecek">
+										
+									</tbody>
+								</table>
+							</div>
+							<!--end::Table-->
+							<!--begin::Container-->
+							<div class="d-flex justify-content-end">
+								<!--begin::Section-->
+								<div class="mw-300px">
+									
+									<!--end::Item-->
+									<!--begin::Item-->
+									<div class="d-flex flex-stack">
+										<!--begin::Code-->
+										<div class="fw-bold pe-10 text-gray-600 fs-7">Toplam</div>
+										<!--end::Code-->
+										<!--begin::Label-->
+										<div class="text-end fw-bolder fs-6 text-gray-800" id="toplamTutar">0 ₺</div>
+										<!--end::Label-->
+									</div>
+									<!--end::Item-->
+								</div>
+								<!--end::Section-->
+							</div>
+							<!--end::Container-->
+						</div>
+						<!--end::Content-->
+					</div>
+					<!--end::Wrapper-->
+				</div>
+				<!--end::Invoice 2 content-->
+			</div>
+			<!--end::Content-->
+			
+		</div>
+		<!--end::Layout-->
+	</div>
+	<!--end::Body-->
+</div>
+
+<script src="~/js/order.js"></script>
